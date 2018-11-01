@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Azzip.cs" />
+    <Compile Include="Blastoise.cs" />
     <Compile Include="Eevee.cs" />
     <Compile Include="frmPokemon.cs">
       <SubType>Form</SubType>
