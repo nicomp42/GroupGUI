@@ -1,5 +1,4 @@
-﻿/* Class created by Nathan Bromer
- */
+﻿//Daniel Cullen
 using PocketMonsters;
 using System;
 using System.Collections.Generic;
@@ -7,20 +6,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PocketMonsters
+namespace GroupGUI
 {
-    class Polkia : Pokemon
+    class Oddish : Pokemon
     {
-        public Polkia(string name) : base() { }
-
+        public Oddish(String name)
+        {
+            this.name = name;
+        }
         public override string Color()
         {
-            return "This is a shiny Polkia. It's colors are Pink and Purple.";
+            return "Blue";
         }
-
         public override int Strength()
         {
-            return 99;
+            return 20;
         }
     }
 }
