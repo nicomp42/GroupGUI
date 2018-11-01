@@ -16,6 +16,11 @@ namespace PocketMonsters
 {
     class Bimpley: Pokemon
     {
+        public Bimpley(String name)
+        {
+            this.name = name;
+        }
+
         public override int Strength()
         {
             return 10000;
