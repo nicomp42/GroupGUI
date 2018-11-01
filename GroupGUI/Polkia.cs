@@ -13,14 +13,12 @@ namespace GroupGUI
 
         public override string Color()
         {
-            string color = "This is a shiny Polkia. It's colors are Pink and Purple.";
-            return color;
+            return "This is a shiny Polkia. It's colors are Pink and Purple.";
         }
 
         public override int Strength()
         {
-            int strength = 99;
-            return strength;
+            return 99;
         }
     }
 }
