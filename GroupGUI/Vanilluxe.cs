@@ -13,6 +13,10 @@ namespace GroupGUI
 {
     class Vanilluxe : Pokemon
     {
+        public Vanilluxe()
+        {
+
+        }
         public override string Color()
         {
             return "White";
