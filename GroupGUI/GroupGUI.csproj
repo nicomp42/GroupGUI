@@ -54,10 +54,14 @@
       <DependentUpon>frmPokemon.cs</DependentUpon>
     </Compile>
     <Compile Include="Lunala.cs" />
+    <Compile Include="Mew.cs" />
+    <Compile Include="Nidoking.cs" />
+    <Compile Include="Oddish.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Polkia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wildfish.cs" />
     <EmbeddedResource Include="frmPokemon.resx">
       <DependentUpon>frmPokemon.cs</DependentUpon>
     </EmbeddedResource>

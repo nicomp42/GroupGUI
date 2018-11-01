@@ -1,7 +1,4 @@
-﻿/**
- * Name: Kyle Marler
- * Description: This class models a Vanilluxe pokemon
-**/
+﻿//Daniel Cullen
 using PocketMonsters;
 using System;
 using System.Collections.Generic;
@@ -11,16 +8,19 @@ using System.Threading.Tasks;
 
 namespace GroupGUI
 {
-    class Vanilluxe : Pokemon
+    class Oddish : Pokemon
     {
+        public Oddish(String name)
+        {
+            this.name = name;
+        }
         public override string Color()
         {
-            return "White";
+            return "Blue";
         }
-
         public override int Strength()
         {
-            return 2147483647;
+            return 20;
         }
     }
 }
