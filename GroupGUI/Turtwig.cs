@@ -15,9 +15,12 @@ namespace PocketMonsters
 {
    abstract class Turtwig :Pokemon
     {
-       
+        public Turtwig(String name)
+        {
+            this.name = name;
+        }
 
-            public override int Strength()
+        public override int Strength()
             {
                 return 73;
 
