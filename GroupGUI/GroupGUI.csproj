@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Eevee.cs" />
     <Compile Include="frmPokemon.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPokemon.Designer.cs">
       <DependentUpon>frmPokemon.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lunala.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
