@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GroupGUI
 {
-    public partial class Form1 : Form
+    public partial class frmPokemon : Form
     {
-        public Form1()
+        public frmPokemon()
         {
             InitializeComponent();
         }
