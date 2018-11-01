@@ -22,5 +22,6 @@ namespace PocketMonsters
         }
         public abstract int Strength();
         public abstract String Color();
+        // Hi
     }
 }
