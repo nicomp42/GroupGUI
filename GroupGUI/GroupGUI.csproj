@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Azzip.cs" />
     <Compile Include="Eevee.cs" />
     <Compile Include="frmPokemon.cs">
       <SubType>Form</SubType>

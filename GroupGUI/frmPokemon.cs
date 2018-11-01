@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GroupGUI
+namespace PocketMonsters
 {
     public partial class frmPokemon : Form
     {
