@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**John Locklear
+ * Stupid pokemon class
+ * he is pink and stuff
+ **/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
