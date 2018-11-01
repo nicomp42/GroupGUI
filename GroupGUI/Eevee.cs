@@ -21,11 +21,11 @@ namespace PocketMonsters
     /// Constructor for the Eevee class. Enter a name for the Eevee if you want. 
     /// </summary>
         private string mName;
-        public Eevee (String Name) 
+        public Eevee (String Name) : base()
         {
             this.Name = Name;
         }
-        public Eevee()
+        public Eevee() : base()
         {
 
         }
