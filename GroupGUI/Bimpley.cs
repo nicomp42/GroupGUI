@@ -1,4 +1,12 @@
-﻿using System;
+﻿/******************************************************************
+Alex Hargett
+InClass Pokemon Example
+Contemprary Programing (001)
+2188-1_34IT3045C001 (18FS-Full)
+Description: Create a new class for a pokemon that inherits from the pokemon class
+Date: 11/01/2018
+*******************************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +16,11 @@ namespace PocketMonsters
 {
     class Bimpley: Pokemon
     {
+        public Bimpley(String name)
+        {
+            this.name = name;
+        }
+
         public override int Strength()
         {
             return 10000;
