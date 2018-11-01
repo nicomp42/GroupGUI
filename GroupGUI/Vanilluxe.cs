@@ -13,8 +13,9 @@ namespace GroupGUI
 {
     class Vanilluxe : Pokemon
     {
-        public Vanilluxe()
+        public Vanilluxe(String name)
         {
+            this.name = name;
 
         }
         public override string Color()
