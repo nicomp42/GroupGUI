@@ -54,6 +54,7 @@
       <DependentUpon>frmPokemon.cs</DependentUpon>
     </Compile>
     <Compile Include="Lunala.cs" />
+    <Compile Include="Mew.cs" />
     <Compile Include="Nidoking.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Polkia.cs" />

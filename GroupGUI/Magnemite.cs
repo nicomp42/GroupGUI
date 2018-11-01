@@ -12,6 +12,7 @@ namespace GroupGUI
 {
     class Magnemite : Pokemon
     {
+        // constructor
         public Magnemite()
         {
         }
