@@ -13,6 +13,11 @@ namespace GroupGUI
 {
     class Vanilluxe : Pokemon
     {
+        public Vanilluxe(String name)
+        {
+            this.name = name;
+
+        }
         public override string Color()
         {
             return "White";
