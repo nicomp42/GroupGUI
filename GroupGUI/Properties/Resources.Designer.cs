@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GroupGUI.Properties
+namespace PocketMonsters.Properties
 {
 
 

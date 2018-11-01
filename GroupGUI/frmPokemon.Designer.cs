@@ -1,4 +1,4 @@
-﻿namespace GroupGUI
+﻿namespace PocketMonsters
 {
     partial class frmPokemon
     {

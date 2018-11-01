@@ -1,7 +1,4 @@
-﻿/* Class created by Nathan Bromer
- */
-using PocketMonsters;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,18 +6,21 @@ using System.Threading.Tasks;
 
 namespace PocketMonsters
 {
-    class Polkia : Pokemon
+    abstract class Azzip : Pokemon
     {
-        public Polkia(string name) : base() { }
+        public Azzip(string name)
+        {
+            this.name = name;
+        }
 
         public override string Color()
         {
-            return "This is a shiny Polkia. It's colors are Pink and Purple.";
+            return "Red";
         }
 
         public override int Strength()
         {
-            return 99;
+            return 44;
         }
     }
 }
